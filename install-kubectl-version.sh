@@ -30,5 +30,5 @@ case $kubectlVersion in
     ;;
 esac
 
-chmod +x /usr/local/bin/kubectl~
+chmod +x /usr/local/bin/kubectl
 printf "\n$(kubectl version --short --client)\n\n"
